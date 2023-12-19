@@ -1,4 +1,4 @@
-# Proyectos Consultor-Bi
+# Proyectos Consultor-BI
 
 Este repositorio contiene dos proyectos desarrollados en el bootcamp de Consultor BI en EducacionIT. Cada proyecto está ubicado en su carpeta respectiva dentro de este repositorio.
 
