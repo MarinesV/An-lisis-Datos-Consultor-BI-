@@ -1,82 +1,113 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Portafolio</title>
-    <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            background-color: #f8f9fa;
-            color: #343a40;
-            margin: 0;
-            padding: 0;
-            line-height: 1.6;
-        }
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Portfolio</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f8f9fa;
+      color: #343a40;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+    }
 
-        header {
-            background-color: #007BFF;
-            color: #fff;
-            text-align: center;
-            padding: 1em 0;
-        }
+    header {
+      background-color: #007BFF;
+      color: #fff;
+      text-align: center;
+      padding: 1em 0;
+    }
 
-        section {
-            max-width: 800px;
-            margin: 2em auto;
-            padding: 0 20px;
-        }
+    .container {
+      max-width: 800px;
+      margin: 2em auto;
+    }
 
-        h1, h2, h3 {
-            color: #007BFF;
-        }
+    h1, h2, h3 {
+      color: #007BFF;
+    }
 
-        p {
-            margin-bottom: 1.5em;
-        }
+    p {
+      margin-bottom: 1.5em;
+    }
 
-        ul {
-            list-style: none;
-            padding: 0;
-        }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
 
-        li {
-            margin-bottom: 0.5em;
-        }
+    li {
+      margin-bottom: 0.5em;
+    }
 
-        a {
-            color: #007BFF;
-            text-decoration: none;
-            font-weight: bold;
-        }
+    a {
+      color: #007BFF;
+      text-decoration: none;
+      font-weight: bold;
+    }
 
-        a:hover {
-            text-decoration: underline;
-        }
+    a:hover {
+      text-decoration: underline;
+    }
 
-    </style>
+    .about-me {
+      background-color: #ffffff;
+      padding: 2em 0;
+    }
+
+    .skills {
+      background-color: #ffffff;
+      padding: 2em 0;
+    }
+
+    .projects {
+      background-color: #ffffff;
+      padding: 2em 0;
+    }
+
+    .footer {
+      background-color: #007BFF;
+      color: #fff;
+      text-align: center;
+      padding: 1em 0;
+    }
+  </style>
 </head>
 <body>
-    <header>
-        <h1>Bienvenida a mi Portafolio</h1>
-    </header>
-    <section>
-        <h2>Sobre Mí</h2>
-        <p>Soy una contadora pública graduada con una sólida formación en finanzas y contabilidad. Mi enfoque va más allá de los números, abrazando la capacidad de utilizar tecnologías como SQL, Power BI y Python para potenciar la toma de decisiones basada en datos.</p>
+  <header>
+    <h1>Bienvenida a mi Portafolio</h1>
+  </header>
+
+  <div class="container">
+
+    <section class="about-me">
+      <h2>Sobre mí</h2>
+      <p>Soy una contadora pública graduada con una sólida formación en finanzas y contabilidad. Mi enfoque va más allá de los números, abrazando la capacidad de utilizar tecnologías como SQL, Power BI, Python y machine learning para potenciar la toma de decisiones basada en datos.</p>
     </section>
-    <section>
-        <h2>Experiencia y Capacitación</h2>
-        <p>Durante mi formación, he trabajado con diligencia en áreas clave, incluyendo carga, limpieza y transformación de datos. Además, he adquirido habilidades en la visualización de datos y modelado, utilizando herramientas como Power BI para comunicar eficazmente información financiera.</p>
-        <p>La duración total de mi capacitación asciende a 300 horas, distribuidas de manera equitativa entre formación síncrona y asíncrona. Este enfoque integral me ha proporcionado una base sólida y diversa para enfrentar desafíos en el ámbito contable y financiero.</p>
+
+    <section class="skills">
+      <h2>Experiencia y capacitación</h2>
+      <p>Durante mi formación, he trabajado con diligencia en áreas clave, incluyendo carga, limpieza y transformación de datos. Además, he adquirido habilidades en la visualización de datos y modelado, utilizando herramientas como Power BI para comunicar eficazmente información financiera.</p>
+      <p>La duración total de mi capacitación asciende a 300 horas, distribuidas de manera equitativa entre formación síncrona y asíncrona. Este enfoque integral me ha proporcionado una base sólida y diversa para enfrentar desafíos en el ámbito contable y financiero.</p>
     </section>
-    <section>
-        <h2>Enlaces a Repositorios</h2>
-        <p>Aquí puedes encontrar algunos de mis proyectos:</p>
-        <ul>
-            <li><a href="https://github.com/MarinesV/Consultor-BI/tree/main/Proyecto%20integrador">Proyecto Integrador 1</a></li>
-            <li><a href="https://github.com/MarinesV/Consultor-BI/tree/main/Proyecto%20Integrador%202">Proyecto Integrador 2</a></li>
-        </ul>
+
+    <section class="projects">
+      <h2>Enlaces a repositorios</h2>
+      <p>Aquí puedes encontrar algunos de mis proyectos:</p>
+      <ul>
+        <li><a href="https://github.com/MarinesV/Consultor-BI/tree/main/Proyecto%20integrador">Proyecto Integrador 1</a></li>
+        <li><a href="https://github.com/MarinesV/Consultor-BI/tree/main/Proyecto%20Integrador%202">Proyecto Integrador 2</a></li>
+      </ul>
     </section>
+
+  </div>
+
+  <footer>
+    <p>Copyright &copy; 2023</p>
+  </footer>
 
 </body>
 </html>
