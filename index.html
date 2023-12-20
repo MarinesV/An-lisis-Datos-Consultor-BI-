@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mi Portfolio</title>
+  <title>Mi Portafolio</title>
   <style>
     body {
       font-family: 'Arial', sans-serif;
@@ -74,6 +74,32 @@
       text-align: center;
       padding: 1em 0;
     }
+
+    .about-me-hero {
+      background-color: #9D38BD;
+      height: 400px;
+      text-align: center;
+    }
+
+    .about-me-hero-image {
+      display: block;
+      margin: 0 auto;
+      max-width: 400px;
+    }
+
+    .about-me-hero-text {
+      margin-top: 20px;
+      font-size: 2em;
+      font-weight: bold;
+    }
+
+    .about-me-hero-button {
+      background-color: #ffffff;
+      color: #007BFF;
+      border-radius: 5px;
+      padding: 10px 20px;
+      margin-top: 20px;
+    }
   </style>
 </head>
 <body>
@@ -84,30 +110,34 @@
   <div class="container">
 
     <section class="about-me">
-      <h2>Sobre mí</h2>
+      <div class="about-me-hero">
+        <img src="img/mi-cara.jpg" class="about-me-hero-image" alt="Imagen de mi cara">
+        <h2 class="about-me-hero-text">Marines V</h2>
+        <a href="#mi-perfil" class="about-me-hero-button">Conoce más</a>
+      </div>
+
+      <h2 id="mi-perfil">Sobre mí</h2>
       <p>Soy una contadora pública graduada con una sólida formación en finanzas y contabilidad. Mi enfoque va más allá de los números, abrazando la capacidad de utilizar tecnologías como SQL, Power BI, Python y machine learning para potenciar la toma de decisiones basada en datos.</p>
     </section>
 
     <section class="skills">
       <h2>Experiencia y capacitación</h2>
-      <p>Durante mi formación, he trabajado con diligencia en áreas clave, incluyendo carga, limpieza y transformación de datos. Además, he adquirido habilidades en la visualización de datos y modelado, utilizando herramientas como Power BI para comunicar eficazmente información financiera.</p>
-      <p>La duración total de mi capacitación asciende a 300 horas, distribuidas de manera equitativa entre formación síncrona y asíncrona. Este enfoque integral me ha proporcionado una base sólida y diversa para enfrentar desafíos en el ámbito contable y financiero.</p>
-    </section>
-
+      <p>Durante mi formación, he trabajado con diligencia en áreas clave, incluyendo carga, limpieza y transformación de datos. Además, he adquirido habilidades en la visualización de datos y modelado
     <section class="projects">
       <h2>Enlaces a repositorios</h2>
       <p>Aquí puedes encontrar algunos de mis proyectos:</p>
       <ul>
-        <li><a href="https://github.com/MarinesV/Consultor-BI/tree/main/Proyecto%20integrador">Proyecto Integrador 1</a></li>
-        <li><a href="https://github.com/MarinesV/Consultor-BI/tree/main/Proyecto%20Integrador%202">Proyecto Integrador 2</a></li>
+        <li>
+          <a href="https://github.com/MarinesV/Consultor-BI/tree/main/Proyecto%20integrador">
+            <img src="img/proyecto-integrador-1.jpg" alt="Imagen del proyecto integrador 1">
+            <h3>Proyecto Integrador 1</h3>
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/MarinesV/Consultor-BI/tree/main/Proyecto%20Integrador%202">
+            <img src="img/proyecto-integrador-2.jpg" alt="Imagen del proyecto integrador 2">
+            <h3>Proyecto Integrador 2</h3>
+          </a>
+        </li>
       </ul>
     </section>
-
-  </div>
-
-  <footer>
-    <p>Copyright &copy; 2023</p>
-  </footer>
-
-</body>
-</html>
